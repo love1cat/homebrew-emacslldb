@@ -1,7 +1,7 @@
 # from https://gist.github.com/ptrv/4a526cb6d04ec707816a 
 require "formula"
 
-class Emacs < Formula
+class EmacsLldb < Formula
   homepage "https://www.gnu.org/software/emacs/"
 
   stable do
