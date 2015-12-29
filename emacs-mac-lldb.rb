@@ -16,6 +16,7 @@ class EmacsMacLldb < Formula
   option "with-official-icon", "Using offical Emacs icon"
   option "with-modern-icon", "Using a modern style Emacs icon by @tpanum"
   option "with-spacemacs-icon", "Using the spacemacs Emacs icon by Nasser Alshammari"
+  option "with-lldb-gud-patch", "Apply lldb gud.el patch"
 
   deprecated_option "keep-ctags" => "with-ctags"
   deprecated_option "icon-official" => "with-official-icon"
